@@ -4,7 +4,7 @@ This is a simple script to check if the dependencies in your package json are be
 
 ## Usage
 checkDependencies [options]
-
+```
 Options:
   -s, --projectPath     source folder path. Defaults to ./
   -p, --packageFile     package file location. Defaults to "<projectPath>/package.json"
@@ -14,3 +14,4 @@ Options:
 
 Example call:
   $ node checkDependencies.js -s ./projectPath -p ./package.json -i ./ignore.txt
+```
